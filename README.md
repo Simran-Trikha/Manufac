@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+## Steps to start the project :
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Run the cmd:-  git clone https://github.com/Simran-Trikha/Manufac.git
+
+## Install Node Modules cmd:- yarn install
+
+## Run the cmd:- yarn start
 
 ## Available Scripts
 
