@@ -6,6 +6,8 @@
 
 ## 3.Run the cmd:- yarn start
 
+
+<img src="src/Assets/Bar Graph.png">
 ## Available Scripts
 
 In the project directory, you can run:
