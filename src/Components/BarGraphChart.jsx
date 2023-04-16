@@ -62,14 +62,13 @@ function BarGraphChart() {
       /* looping through the unique values of Alcohol to get min value of magnesium for a particular alochol value.*/
     }
 
-    for (let i = 0; i < newDataSetForxAxis.length; i++) {
+    for (let [i, newdatasetval] of newDataSetForxAxis.entries()) {
       let arr = [];
-      for (let j = 0; j < Dataset.length; j++)
-        if (newDataSetForxAxis[i] === Dataset[j].Alcohol) {
+      for (let [j, val] of Dataset.entries()) {
+        if (newdatasetval === val.Alcohol) {
           arr.push(Dataset[j].Magnesium);
         }
-      // const sortedArr = arr.sort((a, b) => a - b);
-      // const min = sortedArr[0];
+      }
       let minVal = Math.min(...arr);
       newDataSetForYAxis.push(minVal);
     }
