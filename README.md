@@ -1,10 +1,10 @@
 ## Steps to start the project :
 
-### Run the cmd:-  git clone https://github.com/Simran-Trikha/Manufac.git
+## 1. Run the cmd:-  git clone https://github.com/Simran-Trikha/Manufac.git
 
-## Install Node Modules cmd:- yarn install
+## 2. Install Node Modules cmd:- yarn install
 
-## Run the cmd:- yarn start
+## 3.Run the cmd:- yarn start
 
 ## Available Scripts
 
